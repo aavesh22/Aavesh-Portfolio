@@ -1,73 +1,56 @@
-# Welcome to your Lovable project
+# AM Portfolio Website
 
-## Project info
+A modern, responsive portfolio website built with React and TypeScript.
 
-**URL**: https://lovable.dev/projects/c7a56b7a-b1d2-4875-a5ee-585d66d05fe4
+## ✨ Features
 
-## How can I edit this code?
+- **Responsive Design** - Works perfectly on all devices
+- **Dark/Light Mode** - Toggle between themes
+- **Smooth Animations** - 60fps orbital motion backgrounds
+- **Interactive Contact Form** - Powered by Formspree
+- **Modern UI** - Glass morphism design with gradient effects
+- **Performance Optimized** - Fast loading and smooth scrolling
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- **Frontend**: React, TypeScript, Tailwind CSS
+- **Animations**: Framer Motion
+- **UI Components**: shadcn/ui
+- **Icons**: Lucide React
+- **Form Handling**: Formspree
+- **Build Tool**: Vite
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c7a56b7a-b1d2-4875-a5ee-585d66d05fe4) and start prompting.
+## 🚀 Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
 
-**Use your preferred IDE**
+# src/
+├── components/          # React components
+│   ├── ui/             # Reusable UI components
+│   ├── Hero.tsx        # Landing section
+│   ├── About.tsx       # About section
+│   ├── Skills.tsx      # Skills showcase
+│   ├── Experience.tsx  # Work experience
+│   ├── Projects.tsx    # Project portfolio
+│   ├── Contact.tsx     # Contact form
+│   └── ...
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+├── assets/             # Images and static files
+├── pages/              # Page components
+└── index.css           # Global styles
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🌟 Key Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Orbital Motion Animations** - Smooth background orbs with circular motion
+- **Glass Morphism UI** - Modern translucent card designs
+- **Responsive Timeline** - Interactive work experience display
+- **Smooth Scrolling** - 60fps optimized performance
+- **Theme Switching** - Seamless dark/light mode toggle
+- **Form Validation** - Client-side form validation with toast notifications
 
-Follow these steps:
+## 📄 License
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/c7a56b7a-b1d2-4875-a5ee-585d66d05fe4) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is open source and available under the [MIT License](LICENSE).
