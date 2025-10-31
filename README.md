@@ -26,22 +26,6 @@ A modern, responsive portfolio website built with React and TypeScript.
 - Node.js (v16 or higher)
 - npm or yarn
 
-# src/
-├── components/          # React components
-│   ├── ui/             # Reusable UI components
-│   ├── Hero.tsx        # Landing section
-│   ├── About.tsx       # About section
-│   ├── Skills.tsx      # Skills showcase
-│   ├── Experience.tsx  # Work experience
-│   ├── Projects.tsx    # Project portfolio
-│   ├── Contact.tsx     # Contact form
-│   └── ...
-├── hooks/              # Custom React hooks
-├── lib/                # Utility functions
-├── assets/             # Images and static files
-├── pages/              # Page components
-└── index.css           # Global styles
-
 ## 🌟 Key Features
 
 - **Orbital Motion Animations** - Smooth background orbs with circular motion
