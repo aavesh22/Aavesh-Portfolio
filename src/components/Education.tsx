@@ -8,25 +8,21 @@ const Education = () => {
     {
       degree: "M.Sc. in Information Technology",
       institution: "Arunodaya University",
-      location: "India",
       year: "2025",
     },
     {
       degree: "BSC in Information Technology",
       institution: "SICES Degree College of Arts, Science & Commerce",
-      location: "Ambarnath",
       year: "2022",
     },
     {
       degree: "Diploma in Computer Engineering",
       institution: "S.H Jondhale Polytechnic",
-      location: "Dombivli",
       year: "2020",
     },
     {
       degree: "High School",
       institution: "K.V.K Ghatkopar Sarvajanik School",
-      location: "Ghatkopar",
       year: "2016",
     },
   ];
@@ -65,7 +61,6 @@ const Education = () => {
                       <span className="text-sm text-foreground/60">{edu.year}</span>
                     </div>
                     <p className="text-foreground/80">{edu.institution}</p>
-                    <p className="text-sm text-foreground/60">{edu.location}</p>
                   </div>
                 </div>
               </motion.div>
