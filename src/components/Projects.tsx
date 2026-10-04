@@ -12,28 +12,27 @@ const Projects = () => {
     featured: boolean;
     github?: string;
   }> = [
-    
     {
-      title: "Inspira Enterprise Migration",
-      description: "Migrated Oracle CX Sales from Classic to Redwood Experience using VBCS, improving user experience by 35%.",
-      technologies: ["VBCS", "Redwood", "OIC", "Oracle Fusion"],
+      title: "Laurastar – EBS to Fusion Migration",
+      description: "Migrated business processes from Oracle EBS to Fusion Cloud via OIC with inbound/outbound integrations, BIP Reports, and FTP/SFTP data flows.",
+      technologies: ["OIC", "Oracle Fusion", "BIP", "REST APIs", "FTP/SFTP"],
       featured: true,
     },
     {
-      title: "HDFC Credila Integration",
-      description: "Secure REST and SOAP integrations between Oracle Cloud ERP systems with encryption workflows.",
-      technologies: ["OIC", "REST", "SOAP", "Oracle ERP"],
+      title: "Inspira Enterprise Migration",
+      description: "Migrated Oracle CX Sales from Classic to Redwood using VBCS, improving UX by 35% with end-to-end go-live support.",
+      technologies: ["VBCS", "Redwood", "OIC", "Oracle Fusion"],
       featured: false,
     },
     {
       title: "INSEAD Supplier Dashboard",
-      description: "Dynamic real-time supplier data dashboard with automated validation using VBCS and Redwood.",
+      description: "Real-time supplier dashboard in VBCS and Redwood with dynamic components and automated data validation.",
       technologies: ["VBCS", "Redwood", "Oracle Fusion", "REST APIs"],
       featured: false,
     },
     {
       title: "Yes Bank Migration Revamp",
-      description: "Led site creation, content modeling, and integration using Oracle Content Management (OCM). Developed dynamic components with HTML, CSS, JavaScript, jQuery, Knockout.js, and Mustache.js for yesbank.in.",
+      description: "Led OCM-based site creation and component development for yesbank.in using JS, jQuery, Knockout.js, and Mustache.js across UAT and production.",
       technologies: ["Oracle OCM", "JavaScript", "jQuery", "Knockout.js", "HTML/CSS"],
       featured: true,
     },

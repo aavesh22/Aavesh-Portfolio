@@ -6,7 +6,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState("");
-  const fullText = "Oracle Integration & Full Stack Engineer";
+  const fullText = "Software Engineer | Oracle Fusion & Full Stack";
   
   useEffect(() => {
     let currentIndex = 0;
@@ -71,8 +71,7 @@ const Hero = () => {
             transition={{ delay: 0.6 }}
             className="text-lg text-foreground/70 max-w-2xl mx-auto"
           >
-            Specialized in Oracle Integration Cloud (OIC), VBCS, Redwood, and Full-Stack Development. 
-            Transforming business requirements into scalable enterprise solutions.
+            Specialized in Oracle Fusion Cloud, OIC, VBCS, and Redwood with 4+ years of experience delivering enterprise integrations and scalable cloud solutions.
           </motion.p>
 
           <motion.div 

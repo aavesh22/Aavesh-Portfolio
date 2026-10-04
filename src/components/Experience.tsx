@@ -12,24 +12,24 @@ const Experience = () => {
       location: "Mumbai",
       projects: [
         {
+          name: "Laurastar Project",
+          description: "Migrated business processes from Oracle EBS to Fusion Cloud via OIC. Built inbound/outbound integrations with logistics partners, created BIP Reports, integrated Fusion REST APIs, and handled FTP/SFTP, data mapping, transformation, and orchestration flows.",
+        },
+        {
           name: "Inspira Enterprise – Migration Project",
-          description: "Migrated Oracle CX Sales from Classic to Redwood Experience using VBCS, delivering a modernized UI and enhanced workflows. Customized pages for web and mobile, improving user experience by 35%.",
+          description: "Migrated Oracle CX Sales from Classic to Redwood using VBCS. Customized web and mobile pages improving UX by 35%. Managed end-to-end go-live with seamless OIC and Fusion integration.",
         },
         {
           name: "HDFC Credila Financial Ltd",
-          description: "Developed REST and SOAP integrations using OIC for secure data exchange between Oracle Cloud ERP systems. Implemented encryption workflows and data transformation.",
+          description: "Built REST and SOAP integrations via OIC for secure Oracle Cloud ERP data exchange. Implemented encryption, data transformation, and monitored Fusion ERP workflows for smooth synchronization.",
         },
         {
-          name: "INSEAD – Know Your Supplier",
-          description: "Developed dynamic dashboard in VBCS and Redwood to display real-time supplier data from Oracle Fusion with automated data validation.",
+          name: "INSEAD – Know Your Supplier Project",
+          description: "Built a real-time supplier dashboard in VBCS and Redwood pulling data from Oracle Fusion. Created dynamic components for supplier insights and automated data validation.",
         },
         {
-          name: "Employee Management System",
-          description: "Built full-stack system with Angular, Spring Boot, and MySQL. Implemented secure authentication, CRUD operations, and Excel file uploads.",
-        },
-        {
-          name: "Yes Bank Migration Revamp",
-          description: "Led site creation, content modeling, and component development using Oracle Content Management (OCM) for yesbank.in.",
+          name: "Yes Bank Migration Revamp Project",
+          description: "Led site creation, content modeling, and OCM integration for yesbank.in. Developed dynamic components using HTML, CSS, JS, jQuery, Knockout.js, and Mustache.js. Managed security, localization policies, and deployments across UAT, stage, and production.",
         },
       ],
     },
@@ -40,8 +40,16 @@ const Experience = () => {
       location: "Mumbai",
       projects: [
         {
-          name: "Master Application & Product Management",
-          description: "Developed Servlets & JSP modules and contributed to Spring MVC-based product management system.",
+          name: "Master Application Project",
+          description: "Developed Servlets and JSP modules for efficient server-side data handling.",
+        },
+        {
+          name: "Product Management System",
+          description: "Built a Spring MVC-based system for streamlined product management.",
+        },
+        {
+          name: "Yes Bank Migration Revamp Project",
+          description: "Led site creation, content modeling, and component integration to enhance Yes Bank's website.",
         },
       ],
     },

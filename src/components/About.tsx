@@ -27,20 +27,16 @@ const About = () => {
           >
             <div className="space-y-6 text-foreground/80 leading-relaxed">
               <p className="text-lg">
-                I'm an <span className="text-primary font-semibold">innovative and results-driven Software Engineer</span> based in Mumbai, Maharashtra, 
-                with hands-on expertise in Oracle Integration Cloud (OIC), Visual Builder (VBCS), and Redwood for developing 
-                dynamic, scalable enterprise solutions.
+                I'm a <span className="text-primary font-semibold">Software Engineer with 4+ years of experience</span> specializing in Oracle Fusion Cloud, OIC, VBCS, and Redwood — building enterprise integrations, REST/SOAP APIs, BIP Reports, and EBS-to-Fusion migrations.
               </p>
               
               <p className="text-lg">
-                With a strong foundation in <span className="text-secondary font-semibold">Java, Spring Boot, Angular, and MySQL</span>, 
-                I specialize in delivering seamless cloud integrations, interactive dashboards, and secure web applications. 
-                My experience spans across major projects with leading financial institutions and enterprise clients.
+                Proficient in <span className="text-secondary font-semibold">Java, Spring Boot, Angular, JavaScript, TypeScript, and MySQL</span>, 
+                I deliver scalable cloud solutions and full-stack applications across leading enterprise clients.
               </p>
               
               <p className="text-lg">
-                I excel at <span className="text-primary font-semibold">bridging business needs with technical solutions</span>, 
-                enhancing process efficiency and user experience through modern development practices and enterprise-grade technologies.
+                I bridge <span className="text-primary font-semibold">business needs with technical solutions</span> — from FTP/SFTP data flows and workflow automation to modern UI development with Redwood and VBCS.
               </p>
 
               <div className="pt-6 flex flex-wrap gap-4">

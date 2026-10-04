@@ -6,28 +6,28 @@ import heroBg from "@/assets/hero-bg.jpg";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend",
-      icon: Code2,
-      color: "primary",
-      skills: ["Angular", "TypeScript", "JavaScript", "HTML/CSS", "jQuery", "Knockout.js", "VBCS", "Redwood"],
-    },
-    {
-      title: "Backend",
-      icon: Database,
-      color: "secondary",
-      skills: ["Java", "Spring Boot", "Spring MVC", "Hibernate", "REST APIs", "SOAP APIs", "MySQL"],
-    },
-    {
-      title: "Cloud & Integration",
+      title: "Oracle & Cloud",
       icon: Cloud,
       color: "primary",
-      skills: ["Oracle Integration Cloud (OIC)", "Oracle Fusion", "Oracle Content Management (OCM)", "Data Transformation"],
+      skills: ["Oracle Fusion Cloud", "Oracle Integration Cloud (OIC)", "VBCS", "Redwood", "Oracle Content Management (OCM)"],
     },
     {
-      title: "Tools & Others",
+      title: "Integration",
       icon: Wrench,
       color: "secondary",
-      skills: ["Git", "GitHub", "Spring Security", "Workflow Automation", "UI/UX Enhancement"],
+      skills: ["REST APIs", "SOAP APIs", "BIP Reports & Data Models", "FTP/SFTP", "Data Mapping", "Data Transformation", "Workflow Automation"],
+    },
+    {
+      title: "Programming & Frameworks",
+      icon: Code2,
+      color: "primary",
+      skills: ["Java", "JavaScript", "TypeScript", "HTML", "CSS", "SQL", "Spring Boot", "Angular"],
+    },
+    {
+      title: "Databases & Tools",
+      icon: Database,
+      color: "secondary",
+      skills: ["MySQL", "Oracle Database", "Git", "GitHub", "Postman", "Maven"],
     },
   ];
 
